@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Physio-Training</title>
+
+    <!-- CSS FILES -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body id="section_1">
+
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <i class="bi-geo-alt me-2"></i>
+                        Bogotá
+                    </p>
+
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:Physio-Training@gmail.com">
+                            physio-training@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-youtube"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" class="logo img-fluid" alt="physio">
+             
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#top">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="servicios.html">servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./registro.html">Registro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./loginVirtualOffice.html">Oficina Virtual</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_3">Causes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_4">Volunteer</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link click-scroll dropdown-toggle" href="#section_5"
+                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">News</a>
+
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" href="news.html">News Listing</a></li>
+
+                            <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                    </li>
+
+                    <li class="nav-item ms-3">
+                        <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+
+
+
+<!-- 
+        <section class="volunteer-section section-padding" id="section_4">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-white mb-4">Formulario</h2>
+
+                        <form class="custom-form volunteer-form mb-5 mb-lg-0" action="#" method="post" role="form">
+                            <h3 class="mb-4">Dejanos Tus datos, y un profesional te contáctara contigo</h3>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <input type="text" name="volunteer-name" id="volunteer-name" class="form-control"
+                                        placeholder="Nombres y Apellidos" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <input type="email" name="volunteer-email" id="volunteer-email"
+                                        pattern="[^ @]*@[^ @]*" class="form-control" placeholder="email"
+                                        required>
+                                </div>
+
+                                <div class="col-lg-12 col-12">
+                                    <input type="number" name="volunteer-subject" id="volunteer-subject"
+                                        class="form-control" placeholder="Numero Celular" required>
+                                </div>
+
+                               
+                            </div>
+
+                            <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message"
+                                placeholder="Mensaje"></textarea>
+
+                            <button type="submit" class="form-control">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <img src="images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg"
+                            class="volunteer-image img-fluid" alt="">
+
+                        <div class="custom-block-body text-center">
+                            <h4 class="text-white mt-lg-3 mb-lg-3">PRofesionales atu sevicio</h4>
+
+                            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque quos rem sapiente eligendi magni natus labore dicta exercitationem, voluptas aliquid eveniet fuga sit quas illum animi impedit facere minus.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    -->
+        
+
+        <section class="contact-section section-padding testimonial-section" id="section_6">
+            <div class="container">
+                <div class="row">
+
+                  
+
+                    <div class="col-lg-12 col-12 mx-auto">
+                        <form class="custom-form contact-form" action="#" method="post" role="form">
+                            <h2>Formulario  de registro</h2>
+
+                           
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="ID" id="ID" class="form-control"
+                                        placeholder="identificacion*" required>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="nameC" id="nameC" class="form-control"
+                                        placeholder="Nombre Completo*" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="age" id="age" class="form-control"
+                                        placeholder="edad*" required>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="city" id="city" class="form-control"
+                                        placeholder="Ciudad*" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="pathology" id="pathology" class="form-control"
+                                        placeholder="Patologia" required>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="service" id="service" class="form-control"
+                                        placeholder="servicio" required>
+                                </div>
+                            </div>
+
+                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+                                placeholder="Correo electronico*" required>
+
+                            <textarea name="message" rows="5" class="form-control" id="message"
+                                placeholder="¿En qué podemos ayudarte?"></textarea>
+
+                            <button type="submit" class="form-control" onclick="submitForm()">registar Datos</button>
+
+                            <div class="row" id="respInsertRegister">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-4">
+                    <img src="img/logo.png" class="logo img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <h5 class="site-footer-title mb-3">Link</h5>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Quienes Somos</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Servicios</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contacto</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Galeria</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Nuestros Clientes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                    <h5 class="site-footer-title mb-3">Información de Contacto</h5>
+
+                    <p class="text-white d-flex mb-2">
+                        <i class="bi-telephone me-2"></i>
+
+                        <a href="tel: 305-240-9671" class="site-footer-link">
+                            300-000-0000
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                            Trainingphysio1@gmail.com
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex mt-3">
+                        <i class="bi-geo-alt me-2"></i>
+                       Bogotá
+                    </p>
+
+                    <!-- <a href="#" class="custom-btn btn mt-3">Get Direction</a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <p class="copyright-text mb-0">Copyright © 2023 <a href="#">Physio-Trainer</a> 
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                        <ul class="social-icon">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-twitter"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-instagram"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-linkedin"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="https://youtube.com/" class="social-icon-link bi-youtube"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        function submitForm() {
+            event.preventDefault();
+
+            let idUser = document.getElementById('ID').value;
+            let nameC = document.getElementById('nameC').value;
+            let age = document.getElementById('age').value;
+            let city = document.getElementById('city').value;
+            let email = document.getElementById('email').value;
+
+            let pathology = document.getElementById('pathology').value;
+            let service = document.getElementById('service').value;
+            let observations = document.getElementById('message').value;
+
+            // Validar campos 
+            if (idUser.trim() === '' || nameC.trim() === '' || age.trim() === '' || city.trim() === '' || email.trim() === '') {
+                alert('Por favor, complete todos los campos requeridos.');
+            }else {
+                let formData = new FormData();
+                formData.append('ID', idUser);
+                formData.append('nameC', nameC);
+                formData.append('age', age);
+                formData.append('city', city);
+                formData.append('email', email);
+
+                formData.append('pathology', pathology);
+                formData.append('service', service);
+                formData.append('observations', observations);
+
+                let xhr = new XMLHttpRequest();
+
+                xhr.open('POST', './php/register.php', true);
+                
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                    document.getElementById('respInsertRegister').innerHTML = xhr.responseText;
+                    }
+                };
+
+                xhr.send(formData);
+
+                setTimeout(function() {
+                    document.getElementById('respInsertRegister').innerHTML = '';
+                }, 3000);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
